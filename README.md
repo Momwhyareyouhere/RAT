@@ -1,6 +1,6 @@
 # RAT
 
-This RAT works only on Linux.
+This RAT works only on Linux and is still on working progress.
 
 Requirements:
 The person that you wanna attack needs to have ngrok installed.
