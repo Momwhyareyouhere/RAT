@@ -14,7 +14,7 @@ log.setLevel(logging.ERROR)
 app = Flask(__name__)
 
 
-DISCORD_WEBHOOK_URL = 'https://discordapp.com/api/webhooks/1312861190506156063/0TUQmzQWViN1XHXc5RBBBLwzZIL0YlkvuFZR1SwHYdFcI-tZ3lOO3RlgVN9svBBm38Ze'
+DISCORD_WEBHOOK_URL = 'webhook'
 
 
 def get_ngrok_url():
