@@ -1,10 +1,10 @@
 import requests
 import os
 
-# Ask for the Ngrok URL from the user
+
 client_ngrok_url = input("Please enter the Ngrok URL: ")
 
-# Send request to client to connect
+
 def send_connect_request():
     target_url = f"{client_ngrok_url}/connect"
     data = {"message": "Connected"}
@@ -21,7 +21,7 @@ def send_connect_request():
         print(f"Error sending request to client: {e}")
         return None
 
-# Send command to client for execution
+
 def send_command_to_client(command):
     target_url = f"{client_ngrok_url}/terminal"
     data = {"command": command}
@@ -43,12 +43,11 @@ def initiate_connection():
         print("Failed to connect to client. Exiting...")
         exit(1)
 
-# Main loop to send and receive commands
+
 def main():
     initiate_connection()
     
     while True:
-        # Prompt user for command input
         command = input("shell > ")
         
         if command.lower() in ["exit", "quit"]:
