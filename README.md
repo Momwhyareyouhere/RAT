@@ -2,6 +2,9 @@
 
 This RAT works only on Linux.
 
+Requirements:
+The person that you wanna attack needs to have ngrok installed.
+
 Download:
 Clone the repository:
 ```
