@@ -17,4 +17,4 @@ python installer.py
 ```
 
 Then share the modified client.py to the user that you wanna attack.
-Run server.py and enter the url that webhook sended.
+Run rat.py and enter the url that webhook sended.
